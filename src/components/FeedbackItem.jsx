@@ -6,8 +6,6 @@ import { useContext } from "react"
 import FeedbackContext from '../context/FeedbackContext'
 
 function FeedbackItem({el}) {
-    const [rating, setRating] = useState(7)
-    const [text, setText] = useState('Example')
     const { handleDelete, editFeedback} = useContext(FeedbackContext)
 
     

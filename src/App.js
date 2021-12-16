@@ -11,7 +11,6 @@ import About from "./components/About"
 
 
 function App() {
-    const [feedback, setFeedback] = useState(FeedbackData)
 
 
     return (

@@ -28,7 +28,7 @@ export const FeedbackProvider = ({ children }) => {
         await fetch(`/feedback/${id}`, {
             method: 'DELETE'
         })
-        setFeedback(feedback.filter(el => el.id != id)) // Remove our element from state/UI
+        setFeedback(feedback.filter(el => el.id !== id)) // Remove our element from state/UI
     }
     //ADD
     const addFeedback = async (newFeedback) => {
