@@ -1,4 +1,3 @@
-import { useState } from "react"
 import Card from "./shared/Card"
 import propTypes from 'prop-types'
 import {FaTimes, FaEdit} from 'react-icons/fa'
